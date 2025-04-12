@@ -26,11 +26,11 @@ The minikube PROFILE stores the specifications of our cluster. The minikube prof
 3. minikube profile profile-name: switching to another profile. The active marker is then set to the new cluster.
 4. minikube stop: it stops the minikube but preserves the configuration and our work.
 5. To customise a cluster use the command : minikube start --driver=docker -n 2 \ --container-runtime=cri-o \ --kubernetes-version=v1.27.12 -p minidock
-6. minikube node list: it shows the lost of nodes and their IP addresses.
-You can access a running cluster through:
-Command line interface
-Web based user interface from a web browser
-APIs from CLI or programmatically
+6. minikube node list: it shows the list of nodes and their IP addresses.
+#### You can access a running cluster through:
+1. Command line interface
+2. Web based user interface from a web browser
+3. APIs from CLI or programmatically
 kubectl is the kubernetes command line interface used to deploy applications, manage and configure kubernetes resources.
 The kubernetes dashboard provides a web based user interface to interact with a kubernetes cluster to manage resourses and containerized applications.
 KUBECTL
