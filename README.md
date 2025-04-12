@@ -22,7 +22,7 @@ The minikube PROFILE stores the specifications of our cluster. The minikube prof
 MINIKUBE COMMANDS
 minikube start: it starts the cluster.
 minikube status: it shows the minikube cluster running, the contorl plane, the host and the kubelet node agent.
-
+![Image](https://github.com/user-attachments/assets/501d0545-d1f7-4064-b150-5694e8033571)
 minikube profile profile-name: switching to another profile. The active marker is then set to the new cluster.
 minikube stop: it stops the minikube but preserves the configuration and our work.
 To customise a cluster use the command : minikube start --driver=docker -n 2 \ --container-runtime=cri-o \ --kubernetes-version=v1.27.12 -p minidock
