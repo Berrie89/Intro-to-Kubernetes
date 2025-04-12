@@ -21,12 +21,12 @@ It is one of the most flexible and popular methods to run an all-in-one or a mul
 The minikube PROFILE stores the specifications of our cluster. The minikube profile list allows us to view the status of our clusters in a table formatted output. It provides the info such as profile name, isolation driver, container runtime, kubernetes version, private IP, status of the cluster - running or stopped, the port that exposes the API server to the control plane components, agents and clients which is 8443.
 ### MINIKUBE COMMANDS
 1. minikube start: it starts the cluster.
-minikube status: it shows the minikube cluster running, the contorl plane, the host and the kubelet node agent.
+2. minikube status: it shows the minikube cluster running, the contorl plane, the host and the kubelet node agent.
 ![Image](https://github.com/user-attachments/assets/501d0545-d1f7-4064-b150-5694e8033571)
-minikube profile profile-name: switching to another profile. The active marker is then set to the new cluster.
-minikube stop: it stops the minikube but preserves the configuration and our work.
-To customise a cluster use the command : minikube start --driver=docker -n 2 \ --container-runtime=cri-o \ --kubernetes-version=v1.27.12 -p minidock
-minikube node list: it shows the lost of nodes and their IP addresses.
+3. minikube profile profile-name: switching to another profile. The active marker is then set to the new cluster.
+4. minikube stop: it stops the minikube but preserves the configuration and our work.
+5. To customise a cluster use the command : minikube start --driver=docker -n 2 \ --container-runtime=cri-o \ --kubernetes-version=v1.27.12 -p minidock
+6. minikube node list: it shows the lost of nodes and their IP addresses.
 You can access a running cluster through:
 Command line interface
 Web based user interface from a web browser
