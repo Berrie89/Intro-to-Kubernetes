@@ -19,7 +19,7 @@ Proxy; kube-proxy: it is the network agent that runs on each node. It is respons
 ## Minikube
 It is one of the most flexible and popular methods to run an all-in-one or a multi node local  kubernetes cluster directly on local workstations.
 The minikube PROFILE stores the specifications of our cluster. The minikube profile list allows us to view the status of our clusters in a table formatted output. It provides the info such as profile name, isolation driver, container runtime, kubernetes version, private IP, status of the cluster - running or stopped, the port that exposes the API server to the control plane components, agents and clients which is 8443.
-### MINIKUBE COMMANDS
+### Minikube Commands
 1. minikube start: it starts the cluster.
 2. minikube status: it shows the minikube cluster running, the contorl plane, the host and the kubelet node agent.
 ![Image](https://github.com/user-attachments/assets/501d0545-d1f7-4064-b150-5694e8033571)
